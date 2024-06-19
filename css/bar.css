@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Rowdies:wght@300;400;700&family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap');
+
+:root {
+  --primary_color: #e74c3c;
+  --white_color: #fff;
+
+  --ubuntu: "ubuntu";
+  --italiana: "italiana";
+  --rowdies: "rowdies";
+
+  --box-shadow: 10px 10px 5px rgba(0,0,0,.3);
+}
+
+html {
+  font-size: 70%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "ubuntu";
+}
+
+/*showcase*/
+#Bar-showcase {
+  background: url('../images/oeQtDHGUpE.jpg') no-repeat center center/cover;
+  min-height: 50vh;
+  position: relative;
+  z-index: -10;
+}
+
+#Bar-showcase::before {
+  content: "";
+  background: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -11;
+}
+
+#Bar-showcase .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 50vh;
+}
+
+#Bar-showcase .content h2 {
+  font-size: 6rem;
+  font-family: var(--rowdies);
+  color: var(--white_color);
+  text-align: center;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  padding-top:20px;
+}
+
+#Bar-showcase .content h3 {
+  font-size: 3rem;
+  font-family: var(--rowdies);
+  color: var(--white_color);
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+/*showcase close*/
+
+/*menu items*/
+
+#menu_items {
+    padding: 10rem 0;
+    background: url(/images/titlecolor.png) no-repeat center center/cover;
+    background-attachment: fixed;
+  }
+  
+  .food_items_container {
+    margin: 3rem 0;
+  }
+  
+  .food_items_container .button_container {
+    margin: 4rem 0;
+    width: 100%;
+    display: inline-block;
+    color: #000;
+    text-align: center;
+  }
+  
+  .button_container .button-cat {
+    display:inline-block;
+    padding: 0.7rem 1.2rem;
+    cursor: pointer;
+    margin: 5px;
+    border: 1px solid #ddd;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .button-cat:hover,.active_button {
+    background: var(--primary_color);
+    color: var(--white_color);
+  }
+  
+  .bar_items_container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+  }
+  
+  .bar_items_container .img_cards{
+    border: 2px solid #065d21;
+    box-shadow: var(--box-shadow);
+    background-color: #ddd;
+    border-radius: 10%;
+  }
+  
+  .img_cards img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }
+  .img_cards p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1.5rem;
+    font-family: var(--ubuntu);
+    
+  }
+  
+  .img_cards .price {
+    color: var(--primary_color);
+    font-size: 1.8rem;
+  }
+  
+  .bar_items_container .byo {
+    border: 1px solid #ddd;
+    box-shadow: var(--box-shadow);
+    background-color: #ddd;
+  }
+  
+  .byo p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: var(--ubuntu);
+  }
+  
+  .byo h4 {
+    font-size: 2rem;
+    font-family: var(--rowdies);
+    text-align: center;
+    color: var(--primary_color);
+  }
+  

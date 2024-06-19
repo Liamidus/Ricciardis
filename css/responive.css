@@ -1,0 +1,131 @@
+
+
+
+/*large screen size*/
+
+@media(max-width: 1070px) {
+    html {
+        font-size: 60%;
+    }
+    .container {
+    padding: 0 60px;
+    }
+    #map_container {
+      display: block;
+    }
+    #map_container .map_image {
+      justify-items: center;
+      margin: 2rem 0;
+      width: 100%;
+   }
+}
+
+@media(max-width: 992px) {
+    html {
+        font-size: 55%;
+    }
+    .container {
+        padding: 0 40px;
+    }
+    .button {
+        display: block;
+    }
+    .navbar nav {
+        flex-direction: column;
+        position: fixed;
+        min-width: 100%;
+        min-height: 60vh;
+        top: 0;
+        right: 100%;
+        background: rgba(0, 0, 0, 0.95);
+        align-items: center;
+        justify-content: center;
+        
+    }
+    nav.active {
+        right: 0%;
+        transition: all 1s ease-in;
+    }
+    .navbar nav li {
+        margin: 2rem 4rem;
+    }
+    .navbar nav li a {
+        font-size: 2.4rem;
+        color: var(--white_color);
+        position: relative;
+    }
+    .navbar nav li a:after {
+        content: "";
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background: var(--primary_color);
+        left: 0;
+        top: 30px;
+        transition: all 0.5s ease-out;
+        opacity: 0;
+        pointer-events: none;
+    }
+    .navbar nav li a:hover::after,
+    .navbar nav li a:focus::after {
+        opacity:1;
+        transition: ease-in;
+    }
+    .navbar nav li a:hover::after {
+        width: 100%;
+        
+    }
+    #about_showcase .content .about_us_card p {
+        text-align: left;
+    }
+    .close-button{
+        position: absolute;
+        top: 10px;
+        left: 80%;
+        margin: 25px;
+    }
+    .button_container {
+        position: relative;
+    }
+    .button_container .button-cat {
+        display:inline-block;
+        padding: 8px 8px;
+        margin: 5px;
+    }
+  
+}
+
+
+@media(max-width: 800px) {
+
+  #deal_today .cards {
+        width: 100%;
+  }
+
+  .sp_content{
+        grid-template-columns: repeat(1,1fr);
+  }
+
+  .menu_items_container {
+        grid-template-columns: repeat(1,1fr);
+
+  }
+  .footer_container {
+    display: block;
+    grid-template-columns: repeat(1,1fr);
+  
+  }
+}
+
+@media(max-width: 520px) {
+
+  .sp_content{
+        grid-template-columns: repeat(1,1fr);
+  }
+
+  .menu_items_container {
+        grid-template-columns: repeat(1,1fr);
+
+  }
+
+}

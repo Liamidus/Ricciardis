@@ -199,7 +199,7 @@ header {
 
 #deal_today {
   padding: 10rem 0;
-  background: url(/images/out-the-oven-1.jpg) no-repeat center center/cover;
+  background: url(../images/out-the-oven-1.jpg) no-repeat center center/cover;
   border-top: 10px solid #ddd;
   border-bottom: 10px solid #ddd;
 }
@@ -247,7 +247,7 @@ header {
   /*menu items*/
 #menu_items {
   padding: 10rem 0;
-  background: url(/images/titlecolor.png) no-repeat center center/cover;
+  background: url(../images/titlecolor.png) no-repeat center center/cover;
   background-attachment: fixed;
 }
 
@@ -341,7 +341,7 @@ header {
 
 #event_bar {
   padding: 10rem 0;
-  background: url(/images/event-background.jpg);
+  background: url(../images/event-background.jpg);
   background-attachment: fixed;
   position: relative;
   background-size: cover;
@@ -371,7 +371,7 @@ font-size: 5rem;
   align-items: center;
   padding: 3rem;
   box-shadow: var(--box-shadow);
-  background: url(/images/titlebnw.png);
+  background: url(../images/titlebnw.png);
   border-radius: 5%;
   height: auto;
   width: 300px;

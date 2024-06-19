@@ -73,7 +73,7 @@ html {
 
 #menu_items {
     padding: 10rem 0;
-    background: url(/images/titlecolor.png) no-repeat center center/cover;
+    background: url(../images/titlecolor.png) no-repeat center center/cover;
     background-attachment: fixed;
   }
   

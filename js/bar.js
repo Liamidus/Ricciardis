@@ -359,8 +359,40 @@ const Draft =[
     //Specials//
     {
         id:30,
-        title: "Merlot",
-        description: "",
+        title: "The Ricciardi",
+        description: "Bacardi, Orange Juice, and Blue Curacao",
+        Category: "Specials",
+
+        //img: ""//
+    },
+    {
+        id:31,
+        title: "The Cheery Cherry",
+        description: "Tequila, Tripple Sec, Sour Apple, Grenadine, Pineapple, and Cherry",
+        Category: "Specials",
+
+        //img: ""//
+    },
+    {
+        id:32,
+        title: "Adios Baby",
+        description: "Vodka, Gin, Rum,Tiquila, Blue Curacao, Sour Mix, and Sprite",
+        Category: "Specials",
+
+        //img: ""//
+    },
+    {
+        id:33,
+        title: "Shecago",
+        description: "Citrus Vodka, Tripple Sec, Lime Juice, Cranberry, Orange Juice, Grenadine",
+        Category: "Specials",
+
+        //img: ""//
+    },
+    {
+        id:34,
+        title: "Madhouse on Madison",
+        description: "Vodka, Blue Curacao, Grenadine, Lime Juice, and Sprite",
         Category: "Specials",
 
         //img: ""//
@@ -456,12 +488,12 @@ window.addEventListener("DOMContentLoaded",function(){
 function displayMenusItem(menuItem){
   let displayMenusItem = menuItem.map(function(item){
       return `<div class="img_cards">
-      <img src=${item.img} alt="">
+      
       <h5 class="normal_heading-1">${item.title}</h5>
       <p>${item.description}</p>
   </div>`;  
 })
- 
+ //<img src=${item.img} alt="">
    displayMenusItem = displayMenusItem.join("");
    SectionCenter.innerHTML = displayMenusItem;
  }

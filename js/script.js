@@ -518,12 +518,12 @@ window.addEventListener("DOMContentLoaded",function(){
 function displayMenusItem(menuItem){
   let displayMenusItem = menuItem.map(function(item){
       return `<div class="img_cards">
-      <img src=${item.img} alt="">
+      
       <p class="normal_heading-1">${item.title}</p>
       <p>${item.description}</p>
   </div>`;  
 })
- 
+ //<img src=${item.img} alt="">
    displayMenusItem = displayMenusItem.join("");
    SectionCenter.innerHTML = displayMenusItem;
  }

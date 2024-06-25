@@ -241,6 +241,10 @@ header {
   color: rgb(0, 0, 0);
   font-weight: 600;
 }
+
+#deal_today .swiper-pagination-1 {
+  text-align: center;
+}
   /*menu carousel close*/
 
 
@@ -302,9 +306,8 @@ header {
 .img_cards p {
   text-align: center;
   font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem;
   font-family: var(--ubuntu);
-  
 }
 
 .img_cards .price {
@@ -365,31 +368,29 @@ font-size: 5rem;
 .event_cards_container {
   margin: 4rem 0;
   z-index: 1;
+  display: flex;
 }
 .event_card {
   text-align: center;
   align-items: center;
   padding: 3rem;
   box-shadow: var(--box-shadow);
-  background: url(../images/titlebnw.png);
-  border-radius: 5%;
+  background: url(../images/background-2.jpg);
+  background-size: cover;
+  border-radius: 8px;
+  width: 325px;
   height: auto;
-  width: 300px;
+  overflow: hidden;
 
 }
+
 .event_card img {
-  display: block;
-  object-fit:fill;
-  width: 40%;
-  height: 50%;
-  border-radius: 50%;
-  margin: auto;
+  width: 325px;
+  height: auto;
 }
 .event_card p {
   font-size: 1.2rem;
   text-align: center;
-  margin-left: 35%;
-  margin-right: 35%;
   padding: 2rem 0;
   background-color: rgba(255, 255, 255, 0.821) ;
   border-radius: 5%;

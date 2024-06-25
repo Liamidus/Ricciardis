@@ -254,8 +254,8 @@ const Draft =[
         title: "Heineken",
         description: "Bottle",
         Category: "Bottle_cans",
-
-        //img: ""//
+        
+        //img: "../images/Heineken.png"//
     },
     {
         id:18,
@@ -489,7 +489,7 @@ function displayMenusItem(menuItem){
   let displayMenusItem = menuItem.map(function(item){
       return `<div class="img_cards">
       
-      <h5 class="normal_heading-1">${item.title}</h5>
+      <p class="normal_heading-1">${item.title}</p>
       <p>${item.description}</p>
   </div>`;  
 })

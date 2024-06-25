@@ -43,27 +43,27 @@ html {
 
 #Bar-showcase .content {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   flex-direction: column;
   min-height: 50vh;
 }
 
 #Bar-showcase .content h2 {
-  font-size: 6rem;
+  font-size: 3rem;
   font-family: var(--rowdies);
   color: var(--white_color);
-  text-align: center;
+  text-align: left;
   letter-spacing: 2px;
   padding-bottom: 10px;
   padding-top:20px;
 }
 
 #Bar-showcase .content h3 {
-  font-size: 3rem;
+  font-size: 8rem;
   font-family: var(--rowdies);
-  color: var(--white_color);
-  text-align: center;
+  color: var(--primary_color);
+  text-align: left;
   letter-spacing: 2px;
 }
 
@@ -127,7 +127,7 @@ html {
   }
   .img_cards p {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 1.5rem;
     font-family: var(--ubuntu);
     

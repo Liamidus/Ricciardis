@@ -24,7 +24,7 @@ html {
 
 /*showcase*/
 #Event-showcase {
-  background: url('../images/oeQtDHGUpE.jpg') no-repeat center center/cover;
+  background: url('../images/background-2.jpg') no-repeat center center/cover;
   min-height: 50vh;
   position: relative;
   z-index: -10;
@@ -43,31 +43,157 @@ html {
 
 #Event-showcase .content {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   flex-direction: column;
   min-height: 50vh;
 }
 
 #Event-showcase .content h2 {
-  font-size: 6rem;
+  font-size: 3rem;
   font-family: var(--rowdies);
   color: var(--white_color);
-  text-align: center;
+  text-align: left;
   letter-spacing: 2px;
   padding-bottom: 10px;
   padding-top:20px;
 }
 
 #Event-showcase .content h3 {
-  font-size: 3rem;
+  font-size: 8rem;
   font-family: var(--rowdies);
-  color: var(--white_color);
-  text-align: center;
+  color: var(--primary_color);
+  text-align: left;
   letter-spacing: 2px;
 }
 
 /*showcase close*/
+
+/*Event Header*/
+
+#Event_header {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/event-background.jpg);
+  background-size: cover;
+}
+#Event_header .left_box{
+  width: 40%;
+  height: 100vh;
+  float: left;
+  padding: 50px;
+  box-sizing: border-box;
+}
+#Event_header .left_box .content {
+  color: #fff;
+  background: rgba(0,0,0,.5);
+  padding: 40px;
+  transition: .5s;
+}
+#Event_header .left_box .content:hover {
+  background: var(--primary_color);
+}
+#Event_header .left_box .content h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+#Event_header .left_box .content p {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+#Event_header .events {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: rgba(0,0,0,.5);
+  float:right;
+  box-sizing: border-box;
+}
+#Event_header .events ul {
+  position:absolute;
+  top: 20%;
+  margin: 0;
+  padding: 40px;
+  box-sizing: border-box;
+  list-style-position: inside;
+}
+#Event_header .events ul li {
+  list-style: none;
+  background: #fff;
+  box-sizing: border-box;
+  height: 200px;
+  margin: 15px 0;
+}
+#Event_header .events ul li .time {
+  position: relative;
+  padding: 20px;
+  background: #262626;
+  box-sizing: border-box;
+  width: 30%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  transition: .5s;
+}
+#Event_header .events ul li:hover .time{
+  background: var(--primary_color);
+}
+#Event_header .events ul li .time h2 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+  line-height: 30px;
+}
+#Event_header .events ul li .time h2 span{
+  font-size: 30px;
+}
+#Event_header .events ul li .details {
+  padding: 20px;
+  background: white;
+  box-sizing: border-box;
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+#Event_header .events ul li .details h3 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+#Event_header .events ul li .details p {
+  position: relative;
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 16px;
+}
+#Event_header .events ul li .details a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1.5px solid black;
+  margin-top: 8px;
+  font-size: 18px;
+  transition: .5s;
+  color: var(--primary_color);
+}
+#Event_header .events ul li .details a:hover {
+  background: var(--primary_color);
+  color: white;
+  border-color: var(--primary_color);
+}
+
+
+/*Event Header Close*/
 
 /*Event Display*/
 
@@ -75,5 +201,53 @@ html {
 background: url('../images/event-background.jpg') no-repeat center center/cover;
   min-height: 100vh;
   position: relative;
+}
+
+#Event-display .container {
+  padding: 4rem 0;
+}
+
+#Event-display .event_cards {
+  display: flex;
+  grid-template-columns: repeat(2,1fr);
+  background: var(--white_color);
+  justify-content: space-around;
+  align-items: center;
+  background: url(../images/background-3.jpg);
+  background-size: contain;
+  height: 600px;
+  border: 5px solid var(--white_color);
+}
+
+#Event-display .event_cards .poster {
+  justify-content: start;
+  align-items: left;
+  padding:3rem;
+  margin-right: 28rem;
+}
+
+#Event-display .event_cards .poster img{
+  width: 400px;
+  border: 3px solid var(--white_color);
+}
+#Event-display .event_cards .info {
+  background: var(--white_color);
+  background-size: contain;
+  width: fit-content;
+  height: 100%;
+  padding: 4rem;
+}
+#Event-display .event_cards h3 {
+  display: block;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-size: 3rem;
+}
+#Event-display .event_cards p {
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: var(--ubuntu);
 }
 /*Event Display close*/

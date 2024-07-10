@@ -39,7 +39,7 @@ var swiper = new Swiper(".mySwiper", {
                 return menuItem;
          } 
       });
-      if(Category=="Draft"){
+      if(Category=="Specials"){
           displayMenusItem(menuCategory);
       }
       else{
@@ -50,69 +50,45 @@ var swiper = new Swiper(".mySwiper", {
 })
 
 
-const Draft =[
+const Specials =[
      //Draft//
      {
-        id:1,
-        title: "Miller Lite",
-        description: "Draft",
-        Category: "Draft",
+        id:30,
+        title: "The Ricciardi",
+        description: "Bacardi, Orange Juice, and Blue Curacao",
+        Category: "Specials",
 
         //img: ""//
     },
     {
-        id:2,
-        title: "Michelob Ultra",
-        description: "Draft",
-        Category: "Draft",
+        id:31,
+        title: "The Cheery Cherry",
+        description: "Tequila, Tripple Sec, Sour Apple, Grenadine, Pineapple, and Cherry",
+        Category: "Specials",
 
         //img: ""//
     },
     {
-        id:3,
-        title: "Yuengling",
-        description: "Draft",
-        Category: "Draft",
+        id:32,
+        title: "Adios Baby",
+        description: "Vodka, Gin, Rum,Tiquila, Blue Curacao, Sour Mix, and Sprite",
+        Category: "Specials",
 
         //img: ""//
     },
     {
-        id:4,
-        title: "Chance IPA",
-        description: "Draft",
-        Category: "Draft",
+        id:33,
+        title: "Shecago",
+        description: "Citrus Vodka, Tripple Sec, Lime Juice, Cranberry, Orange Juice, Grenadine",
+        Category: "Specials",
 
         //img: ""//
     },
     {
-        id:5,
-        title: "Goose Island IPA",
-        description: "Draft",
-        Category: "Draft",
-
-        //img: ""//
-    },
-    {
-        id:6,
-        title: "Bells Amber Ale",
-        description: "Draft",
-        Category: "Draft",
-
-        //img: ""//
-    },
-    {
-        id:7,
-        title: "Blue Moon",
-        description: "Draft",
-        Category: "Draft",
-
-        //img: ""//
-    },
-    {
-        id:8,
-        title: "Guinness",
-        description: "Draft",
-        Category: "Draft",
+        id:34,
+        title: "Madhouse on Madison",
+        description: "Vodka, Blue Curacao, Grenadine, Lime Juice, and Sprite",
+        Category: "Specials",
 
         //img: ""//
     },
@@ -122,7 +98,7 @@ const Draft =[
        {
         id:1,
         title: "Miller Lite",
-        description: "Draft",
+        description: "4.2% ABV Light American Lager",
         Category: "Draft",
 
         //img: ""//
@@ -130,7 +106,7 @@ const Draft =[
     {
         id:2,
         title: "Michelob Ultra",
-        description: "Draft",
+        description: "4.2% ABV Light American Lager",
         Category: "Draft",
 
         //img: ""//
@@ -138,7 +114,7 @@ const Draft =[
     {
         id:3,
         title: "Yuengling",
-        description: "Draft",
+        description: "4.5% ABV Traditional Lager",
         Category: "Draft",
 
         //img: ""//
@@ -146,7 +122,7 @@ const Draft =[
     {
         id:4,
         title: "Chance IPA",
-        description: "Draft",
+        description: "6.2% ABV India Pale Ale",
         Category: "Draft",
 
         //img: ""//
@@ -154,7 +130,7 @@ const Draft =[
     {
         id:5,
         title: "Goose Island IPA",
-        description: "Draft",
+        description: "5.9% ABV India Pale Ale",
         Category: "Draft",
 
         //img: ""//
@@ -162,7 +138,7 @@ const Draft =[
     {
         id:6,
         title: "Bells Amber Ale",
-        description: "Draft",
+        description: "5.8% ABV Toasted and Sweet Ale",
         Category: "Draft",
 
         //img: ""//
@@ -170,7 +146,7 @@ const Draft =[
     {
         id:7,
         title: "Blue Moon",
-        description: "Draft",
+        description: "5.4% ABV Belgian-Style Witbier",
         Category: "Draft",
 
         //img: ""//
@@ -178,7 +154,7 @@ const Draft =[
     {
         id:8,
         title: "Guinness",
-        description: "Draft",
+        description: "4.2% ABV Irish Stout",
         Category: "Draft",
 
         //img: ""//
@@ -188,7 +164,7 @@ const Draft =[
     {
         id:9,
         title: "Corona Extra",
-        description: "Bottle and Cans",
+        description: "4.6% ABV Pilsner-Style Lager",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -196,7 +172,7 @@ const Draft =[
     {
         id:10,
         title: "Corona Light",
-        description: "Bottle and Cans",
+        description: "4.1% ABV Pilsner-Style Lager",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -204,7 +180,7 @@ const Draft =[
     {
         id:11,
         title: "Modelo",
-        description: "Bottle and Cans",
+        description: "4.4% ABV Mexican Lager",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -212,7 +188,7 @@ const Draft =[
     {
         id:12,
         title: "Atlanta Hard Cider",
-        description: "Cans in seasonal flavors",
+        description: "5.9% ABV Cans in Seasonal Flavors",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -220,7 +196,7 @@ const Draft =[
     {
         id:13,
         title: "Peroni",
-        description: "Italian Pilsner",
+        description: "4.7% ABV Italian Pilsner",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -228,7 +204,7 @@ const Draft =[
     {
         id:14,
         title: "Stella Artois",
-        description: "Bottle and Cans",
+        description: "5.0% ABV Belgium Pilsner",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -236,7 +212,7 @@ const Draft =[
     {
         id:15,
         title: "Bitburger",
-        description: "German Pilsner",
+        description: "4.8% ABV German Pilsner",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -244,7 +220,7 @@ const Draft =[
     {
         id:16,
         title: "Coors Light",
-        description: "Bottle and Cans",
+        description: "4.2% ABV Light American Lager",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -252,7 +228,7 @@ const Draft =[
     {
         id:17,
         title: "Heineken",
-        description: "Bottle",
+        description: "5.4% ABV Dutch Traditional Lager",
         Category: "Bottle_cans",
         
         //img: "../images/Heineken.png"//
@@ -260,7 +236,7 @@ const Draft =[
     {
         id:18,
         title: "Wicked Weed Pernicious",
-        description: "Can - IPA",
+        description: "7.3% ABV India Pale Ale",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -268,7 +244,7 @@ const Draft =[
     {
         id:19,
         title: "High Noon",
-        description: "Cans",
+        description: "4.5% ABV Vodka Soda",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -276,7 +252,7 @@ const Draft =[
     {
         id:20,
         title: "Truly Hard Seltzer",
-        description: "Cans",
+        description: "5.0% ABV Hard Seltzer",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -284,7 +260,7 @@ const Draft =[
     {
         id:21,
         title: "PBR",
-        description: "Cans",
+        description: "4.7% ABV Full-Bodied Lager",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -292,7 +268,7 @@ const Draft =[
     {
         id:22,
         title: "Creatures Comfort",
-        description: "Cans",
+        description: "6.0% ABV India Pale Ale",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -300,7 +276,7 @@ const Draft =[
     {
         id:23,
         title: "Tropicalia",
-        description: "Cans",
+        description: "6.6% ABV Juicy India Pale Ale",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -308,7 +284,7 @@ const Draft =[
     {
         id:24,
         title: "Budweiser",
-        description: "Cans",
+        description: "5.0% ABV Adjunct Pale Lager",
         Category: "Bottle_cans",
 
         //img: ""//
@@ -474,7 +450,7 @@ const Draft =[
     {
         id:29,
         title: "Coke Products",
-        description: "by the can",
+        description: "By The Can",
         Category: "Drinks",
 
         //img: ""//
@@ -482,7 +458,7 @@ const Draft =[
   ]
 
 window.addEventListener("DOMContentLoaded",function(){
-   displayMenusItem(Draft);
+   displayMenusItem(Specials);
  });
 
 function displayMenusItem(menuItem){

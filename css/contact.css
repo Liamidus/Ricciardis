@@ -75,24 +75,28 @@ html {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     background: rgb(218, 218, 218);
-    gap: 2rem;
     margin: 2rem 0;
     padding: 0 2rem;
 }
 .map_content h3 {
-    padding-top: 5rem;
-    text-align: center;
+    padding-bottom: 5px;
 }
-#map_container .map_content .content_info {
-    text-align: center;
-    padding-top: 5rem;
-    justify-content: center;
+#map_container .map_content .content_info{
+  text-align: center;
+  
+  justify-content: center;
+  
 }
-
-.contact_info p {
-    font-size: 1.7rem;
-    align-items: center;
-    justify-content: center;
+#map_container .map_content {
+  text-align: center;
+  padding-top: 1rem;
+  justify-content: center;
+}
+.content_info p {
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 #map_container .map_image {
@@ -108,6 +112,4 @@ html {
     width:100%;
     position:absolute;
 }
-
-
 /*Map close*/

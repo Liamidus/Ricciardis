@@ -77,16 +77,16 @@ const Deep_Dish =[
      //Deep Dish//
      {
         id:1,
-        title: "Ricciardi Classic",
-        description: "Number one seller - loaded with extra sausage",
+        title: "Cheese Deep Dish",
+        description: "Our classic Chicago style deep dish",
         Category: "Deep_Dish",
 
         //img: ""//
     },
     {
         id:2,
-        title: "Joe's Favorite",
-        description: "Our classic loaded with sausage, bacon, and pepperoni",
+        title: "Ricciardi Classic",
+        description: "Number one seller - loaded with extra sausage",
         Category: "Deep_Dish",
 
         //img: ""//
@@ -109,8 +109,8 @@ const Deep_Dish =[
     },
     {
         id:5,
-        title: "Cheese Deep Dish",
-        description: "Our classic Chicago style deep dish",
+        title: "Joe's Favorite",
+        description: "Our classic loaded with sausage, bacon, and pepperoni",
         Category: "Deep_Dish",
 
         //img: ""//
@@ -129,16 +129,16 @@ const Deep_Dish =[
     //Deep Dish//
     {
         id:1,
-        title: "Ricciardi Classic",
-        description: "Number one seller - loaded with extra sausage",
+        title: "Cheese Deep Dish",
+        description: "Our classic Chicago style deep dish",
         Category: "Deep_Dish",
 
         //img: ""//
     },
     {
         id:2,
-        title: "Joe's Favorite",
-        description: "Our classic loaded with sausage, bacon, and pepperoni",
+        title: "Ricciardi Classic",
+        description: "Number one seller - loaded with extra sausage",
         Category: "Deep_Dish",
 
         //img: ""//
@@ -161,8 +161,8 @@ const Deep_Dish =[
     },
     {
         id:5,
-        title: "Cheese Deep Dish",
-        description: "Our classic Chicago style deep dish",
+        title: "Joe's Favorite",
+        description: "Our classic loaded with sausage, bacon, and pepperoni",
         Category: "Deep_Dish",
 
         //img: ""//
@@ -272,7 +272,7 @@ const Deep_Dish =[
     {
         id:16,
         title: "Fried Mozzarella",
-        description: "Served with house marinara",
+        description: "Breaded and fried mozzarella served with house marinara",
         Category: "Appetizers",
   
         //img: ""//
@@ -280,7 +280,7 @@ const Deep_Dish =[
     {
         id:17,
         title: "Wisconsin Cheese Curds",
-        description: "###",
+        description: "Small pieces of curdled milk, roughly the size of peanuts in the shell, with a mild and cheddar-like flavor",
         Category: "Appetizers",
        
         
@@ -288,7 +288,7 @@ const Deep_Dish =[
     {
         id:18,
         title: "Fried Mushrooms",
-        description: "Served with house marinara",
+        description: "Breaded and fried mushrooms served with house marinara",
         Category: "Appetizers",
  
         //img: ""//
@@ -296,7 +296,7 @@ const Deep_Dish =[
     {
         id:19,
         title: "Fried Zucchini",
-        description: "Served with house marinara",
+        description: "Breaded and fried zucchini served with house marinara",
         Category: "Appetizers",
    
         
@@ -304,15 +304,15 @@ const Deep_Dish =[
     {
         id:20,
         title: "Calamari",
-        description: "Served with house marinara",
+        description: "Calamari rings are breaded and fried until golden served with house marinara",
         Category: "Appetizers",
    
         
     },
     {
         id:21,
-        title: "Jalapeno Poppers",
-        description: "###",
+        title: "Jalapeño Poppers",
+        description: "Jalapeño peppers fried and stuffed with cheese and spices",
         Category: "Appetizers",
     
         
@@ -320,7 +320,7 @@ const Deep_Dish =[
     {
         id:22,
         title: "Toasted Beef Ravioli",
-        description: "###",
+        description: "Filled with a blend of high-quality ground beef, pecorino and romano cheese, onion, garlic, and spices",
         Category: "Appetizers",
       
         
@@ -328,7 +328,7 @@ const Deep_Dish =[
     {
         id:23,
         title: "Cheesy Garlic Bread",
-        description: "Our ### bun baked with garlic butter and topped with ### cheese",
+        description: "Our Tribeca French bun baked with garlic butter and topped with mozzarella cheese",
         Category: "Appetizers",
      
         
@@ -336,7 +336,7 @@ const Deep_Dish =[
     {
         id:24,
         title: "House Meatballs",
-        description: "A half puond of meatballs served with our house marinara and parmigiano reggiano",
+        description: "A half pound of meatballs served with our house marinara and parmigiano reggiano",
         Category: "Appetizers",
        
         
@@ -364,7 +364,7 @@ const Deep_Dish =[
     {
         id:27,
         title: "Maxwell Street Polish Sausage",
-        description: "###",
+        description: "Polish Sausage, mustard, poppy seed buns, sport peppers and grilled onions",
         Category: "Sandwiches",
        
         
@@ -372,7 +372,7 @@ const Deep_Dish =[
     {
         id:28,
         title: "Italian Beef",
-        description: "Thinly sliced roast beef served on a 6” roll with your choice of sweet peppers and hot giardiniera. Dipped or Baptized",
+        description: "Thinly sliced slow-roasted beef served on a 6” turano roll with your choice of sweet peppers and hot giardiniera. Dipped or Baptized",
         Category: "Sandwiches",
      
         
@@ -380,7 +380,7 @@ const Deep_Dish =[
     {
         id:29,
         title: "Meatball Sub",
-        description: "###",
+        description: "House made meatballs and maranara sauce on a 6 inch roll topped with parmigiano reggiano",
         Category: "Sandwiches",
        
         
@@ -396,7 +396,7 @@ const Deep_Dish =[
     {
         id:31,
         title: "Chicago Dog",
-        description: "###",
+        description: "A grilled Vienna all-beef frank in a hot, steamed bun topped with fresh tomato, fresh onions, pickle spear, relish, sport peppers, tangy French's mustard and sprinkled with celery salt",
         Category: "Sandwiches",
      
         
@@ -404,7 +404,7 @@ const Deep_Dish =[
     {
         id:32,
         title: "Chicken Club",
-        description: "###",
+        description: "Fried chicken topped with bacon, lettuce, tomato, pepper jack cheese, and mayo",
         Category: "Sandwiches",
        
         
@@ -412,15 +412,15 @@ const Deep_Dish =[
     {
         id:33,
         title: "Fried Fish or Shrimp Basket",
-        description: "###",
+        description: "Beer battered haddock or fried shrimp served with your choice of tartar sauce or cocktail sauce",
         Category: "Sandwiches",
        
         
     },
     {
         id:34,
-        title: "Fish Sandwitch",
-        description: "###",
+        title: "Fish Sandwich",
+        description: "Beer battered haddockwith american cheese lettuce and tarter sauce on a hogie roll",
         Category: "Sandwiches",
      
         
@@ -472,7 +472,7 @@ const Deep_Dish =[
     {
         id:40,
         title: "Hamburger",
-        description: "###",
+        description: "",
         Category: "Kids",
      
         
@@ -480,7 +480,7 @@ const Deep_Dish =[
     {
         id:41,
         title: "Cheeseburger",
-        description: "###",
+        description: "",
         Category: "Kids",
        
         
@@ -488,7 +488,7 @@ const Deep_Dish =[
     {
         id:42,
         title: "Chicken Nuggets",
-        description: "###",
+        description: "",
         Category: "Kids",
        
         
@@ -496,7 +496,7 @@ const Deep_Dish =[
     {
         id:43,
         title: "Spaghetti and Meatball",
-        description: "###",
+        description: "",
         Category: "Kids",
      
         
@@ -504,7 +504,7 @@ const Deep_Dish =[
     {
         id:44,
         title: "Corn Dog",
-        description: "###",
+        description: "",
         Category: "Kids",
        
         

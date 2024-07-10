@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,13 +15,14 @@
         <title>Ricciardi Pizzeria</title>
     </head>
 <body>
+
     <!--Header -->
 <section>
     <header>
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="#"><img src="./images/logo.png" alt="Restaurant Logo"/></a>
+                    <a href="index.html"><img src="./images/logo.png" alt="Restaurant Logo"/></a>
                 </div>
                 <nav>
                     <div class="button">
@@ -40,19 +42,6 @@
     </header>
 </section>
     <!--header close-->
-
-    <!--showcase-->
-    <section>
-        <main id="Event-showcase">
-            <div class="container">
-                <div class="content">
-                    <h2>Ricciardi Pizzeria</h2>
-                    <h3>EVENTS</h3>
-                </div>
-            </div>
-        </main>
-</section>
-    <!--showcase close-->
 
     <!--Event Header-->
 <section id="Event_header">
@@ -75,8 +64,8 @@
             <ul>
                 <li>
                     <div class="time">
-                        <h2>
-                            26<br><span>June</span>
+                        <h2 id="Bingo_date">
+                            <br><span></span>
                         </h2>
                     </div>
                     <div class="details">
@@ -90,7 +79,8 @@
                 </li>
                 <li>
                     <div class="time">
-                        <h2>03<br><span>July</span></h2>
+                        <h2 id="Trivia_date">
+                            <br><span></span></h2>
                     </div>
                     <div class="details">
                         <h3>Trivia Night</h3>
@@ -107,49 +97,50 @@
 </section>
     <!--Event Header Close-->
 
-
     <!--Events-->
-<section id="Event-display">
-    <div class="container">
-        <div id="Bingo" class="event_cards">
-            <div class="poster">
-                <img src="./images/event-id-1-musicalbingo.jpg" alt="Musical Bingo">
-            </div>
-            <div class="info">
+<section id="Event-1">
+    <div class="banner"><div id="Bingo"></div></div> 
+        <div class="event_card">
+            <div class="info-1">
                 <h3>Musical Bingo</h3>
                 <p>
                     Join us for an exciting night of Music Bingo at Ricciardi's! Enjoy great tunes while you mark off your bingo cards, 
-                        and compete for fantastic prizes. Bring your friends and have a blast 
-                        with good music, delicious food, and the chance to win big!
+                    and compete for fantastic prizes. Bring your friends and have a blast 
+                    with good music, delicious food, and the chance to win big!
                 </p>
-                <p>
-                    
+                <p class="event_time">
+                    Starts at 7:30pm 
                 </p>
+                <p class="event_time">Every other WEDNSDAY</p>
+            </div>
+            <div class="poster-1">
+                <img src="./images/event-id-1-musicalbingo.jpg" alt="Musical Bingo">
             </div>
         </div>
-
-        <div  class="event_cards-1">
-            <div id="Trivia" class="poster">
-                <img src="./images/event-id-2-trivianight.jpg" alt="Musical Bingo">
+    <div class="banner"><div id="Trivia"></div></div> 
+        <div class="event_card">
+            <div class="poster-2">
+                <img src="./images/event-id-2-trivianight.jpg" alt="Trivia Night">
             </div>
-            <div class="info">
+            <div class="info-2">
                 <h3>Trivia Night</h3>
                 <p>
                     Come test your knowledge at our lively Trivia Night at Ricciardi's! 
-                        Challenge your friends to see who knows the most, and compete for amazing prizes. 
-                        Enjoy a night of fun questions, great food, and the chance to be crowned trivia champion!
+                    Challenge your friends to see who knows the most, and compete for amazing prizes. 
+                    Enjoy a night of fun questions, great food, and the chance to be crowned trivia champion!
                 </p>
-                <p>
-                    
+                <p class="event_time">
+                    Starts at 7:45pm 
                 </p>
+                <p class="event_time">Every other WEDNSDAY</p>
             </div>
         </div>
-    </div>
+    <div class="banner"></div>
 </section>
     <!--Events close-->
 
     <!--footer-->
-    <section id="footer">
+<section id="footer">
         <div class="container">
             <h2><img src="./images/logo.png" alt="logo" /></h2>
             <div class="footer_container">
@@ -174,26 +165,29 @@
                     <P class="day">SUNDAY: <span>----------4:00PM - 8:00PM</span></P>
                 </div>
                 <div class="contact_us">
-                    <h2>Contact Us</h2>
+                    <a href="contact.html"><h2>Contact Us</h2></a>
                     <h3>GET IN TOUCH</h3>
                     <P>PHONE NUMBER</P>
                     <P class="add">(912)-445-0675</P>
                     <P>2518 US Highway 17 Richmond Hill, Georgia</P>
                     <p class="email">Email</p>
+                    <div id="facebook">
+                        <a href="https://www.facebook.com/RicciardiPizzeria/"><img src="./images/find-us-on-facebook-icon.jpg" alt="Facebook Link"></a>
+                    </div>
                 </div>
             </div>
         </div>
-        </section>
+</section>
         
         <footer>
             <div class="container">
                 <p>
-                    Copyright 2024 &copy; Ricciardi's Pizzeria and Bar 
+                    Copyright 2024 &copy; Ricciardi's Pizzeria and Bar. Designed by Liam O'Rourke.
                 </p>
             </div>
         </footer>
     <!--footer close-->
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/event.js"></script>
     </body>

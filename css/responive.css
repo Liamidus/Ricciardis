@@ -75,20 +75,64 @@
         height: 100%;
         background-position: center;
        }
+    #Event_home .events ul{
+        width: 100%;
+    }
+    #Event_home {
+        height: 100%;
+        background-position: center;
+       }
     #Event_header .left_box {
         width: 100%;
         height: auto;
         float: none;
         padding: 20px;
        }
-    #Event_header .events {
+    #Event_header .left_box .content {
+        padding: 20px;
+       }
+    #Event_home .events {
         width: 100%;
         height: auto;
         background: transparent;
         float: none;
        }
-    #Event_header .left_box .content {
-        padding: 20px;
+    #Event_home .events ul {
+        position: relative;
+        transform: translateY(0px);
+        padding: 0 20px 20px;
+       }
+    #Event_home .events ul li {
+        height: auto;
+        background: rgba(225, 225, 225, .9);
+        padding-bottom: 40px;
+       }
+    #Event_home .events ul li .time {
+        width: 100px;
+        height: 100px;
+        padding: 0;
+       }
+    #Event_home .events ul li .time h2 {
+        font-size: 30px;
+        line-height: 24px;
+       }
+    #Event_home .events ul li .time h2 span {
+        font-size: 20px;
+       }
+    #Event_home .events ul li .details {
+        width: 100%;
+        float: none;
+        padding-left: 120px;
+        background: transparent;
+       }
+    #Event_home .events ul li .details a {
+        padding: 5px 10px;
+       }
+    #Event_header .events {
+        width: 100%;
+        height: auto;
+        background: transparent;
+        float: none;
        }
     #Event_header .events ul {
         position: relative;
@@ -120,100 +164,99 @@
     #Event_header .events ul li .details a {
         padding: 5px 10px;
        }
-
-       #Event-1 .event_card {
+    #Event-1 .event_card {
         display: flex;
         flex-direction: column;
         grid-template-columns: repeat(1, 2fr);
         justify-items: center;
         width: 100%;
-      }
+       }
     #Event-1 .event_card .info-1 {
         width: auto;
         margin-left: 20px;
         margin-right: 20px;
         padding: 40px;
         align-self: center;
-    }
+       }
     #Event-1 .event_card .info-2 {
         width: auto;
         margin-left: 20px;
         margin-right: 20px;
         padding: 40px;
         align-self: center;
-    }
+       }
     #Event-1 .info-1 h3 {
         font-size: 3rem;
-    }
+       }
     #Event-1 .info-2 h3 {
         font-size: 3rem;
         position: relative;
         bottom: 250px;
-    }
+       }
     #Event-1 .info-1 p {
         font-size: 1.5rem;
-    }
+       }
     #Event-1 .info-2 p {
         font-size: 1.5rem;
         position: relative;
         bottom: 250px;
-    }
+       }
     #Event-1 .event_card .info-1 .event_time {
         position: relative;
         top: 300px;
-    }
+       }
     #Event-1 .event_card .info-2 .event_time {
         position: relative;
         top: 40px;
-    }
+       }
     #Event-1 .event_card .poster-1{
         width: 200px;
         align-self: center;
         position: relative;
         bottom: 170px;
-    }
+       }
     #Event-1 .poster-1 img{
         width: 200px;
-    }
+       }
     #Event-1 .event_card .poster-2{
         width: 200px;
         align-self: center;
         position: relative;
         top: 275px;
-    }
+       }
     #Event-1 .poster-2 img{
         width: 200px;
-    }
+       }
 }
 
 
 @media(max-width: 1070px) {
     html {
         font-size: 60%;
-    }
+       }
     .container {
-    padding: 0 60px;
-    }
+        padding: 0 60px;
+       }
     #map_container {
-      display: block;
-    }
+        display: block;
+       }
     #map_container .map_image {
-      justify-items: center;
-      margin: 2rem 0;
-      width: 100%;
-   }
+        justify-items: center;
+        margin: 2rem 0;
+        width: 100%;
+       }
 }
 
 @media(max-width: 992px) {
     html {
         font-size: 55%;
-    }
+       }
     .container {
         padding: 0 40px;
-    }
+       }
     .button {
         display: block;
-    }
+       }
     .navbar nav {
         flex-direction: column;
         position: fixed;
@@ -223,21 +266,20 @@
         right: 100%;
         background: rgba(0, 0, 0, 0.95);
         align-items: center;
-        justify-content: center;
-        
-    }
+        justify-content: center;   
+       }
     nav.active {
         right: 0%;
         transition: all .5s ease-in;
-    }
+       }
     .navbar nav li {
         margin: 2rem 4rem;
-    }
+       }
     .navbar nav li a {
         font-size: 2.4rem;
         color: var(--white_color);
         position: relative;
-    }
+       }
     .navbar nav li a:after {
         content: "";
         position: absolute;
@@ -249,82 +291,63 @@
         transition: all 0.5s ease-out;
         opacity: 0;
         pointer-events: none;
-    }
+       }
     .navbar nav li a:hover::after,
     .navbar nav li a:focus::after {
         opacity:1;
         transition: ease-in;
-    }
+       }
     .navbar nav li a:hover::after {
-        width: 100%;
-        
-    }
+        width: 100%;  
+       }
     #about_showcase .content .about_us_card p {
         text-align: left;
-    }
+       }
     .close-button{
         position: absolute;
         top: 10px;
         left: 80%;
         margin: 25px;
-    }
+       }
     .button_container {
         position: relative;
-    }
+       }
     .button_container .button-cat {
         display:inline-block;
         padding: 8px 8px;
         margin: 5px;
-    }
-  
+       }
 }
 
-
 @media(max-width: 800px) {
-
-  #deal_today .cards {
+    #deal_today .cards {
         width: 100%;
         margin: 0;
         padding: 0;
-  }
-  .sp_content{
+       }
+    .sp_content{
         grid-template-columns: repeat(1,1fr);
-  }
-  .menu_items_container {
+       }
+    .menu_items_container {
         grid-template-columns: repeat(1,1fr);
-  }
-  .bar_items_container {
+       }
+    .bar_items_container {
         grid-template-columns: repeat(1,1fr);
-  }
-  .footer_container {
+       }
+    .footer_container {
         display: block;
         grid-template-columns: repeat(1,1fr);
-  }
-  #Event_home {
-        height: 800px
-  }
-  #Event_home .events ul {
-        width: 100%;
-  }
-  #Event_home .events ul li  {
-        height: 25rem;
-  }
+       }
 }
-
-@media(max-width: 640px) {
-
-}
-
 
 @media(max-width: 520px) {
-
-  .sp_content{
+    .sp_content{
         grid-template-columns: repeat(1,1fr);
-  }
-
-  .menu_items_container {
+       }
+    .menu_items_container {
         grid-template-columns: repeat(1,1fr);
-
-  }
-
+       }
+    #Event-1 .banner {
+        height: 10vh;
+       }
 }

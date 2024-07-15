@@ -7,7 +7,6 @@
   position: relative;
   z-index: -10;
 }
-
 #about_showcase::before {
   content: "";
   background: rgba(0,0,0,0.6);
@@ -18,23 +17,17 @@
   height: 100%;
   z-index: -11;
 }
-
 #about_showcase .content {
   display: flex;
-  align-items:flex-start;
-  justify-content:left;
+  justify-content: center;
   flex-direction: column;
   min-height: 100vh;
 }
-#about_showcase .content .about_container {
-    text-align: left;
-}
-
 #about_showcase .content img {
   max-width: 200px;
   margin-top: 200px;
+  align-self: center;
 }
-
 #about_showcase .content h2 {
   font-size: 6rem;
   font-family: var(--rowdies);
@@ -44,7 +37,6 @@
   padding-bottom: 10px;
   padding-top:20px;
 }
-
 #about_showcase .content h3 {
   font-size: 3rem;
   font-family: var(--rowdies);
@@ -52,14 +44,12 @@
   text-align: center;
   letter-spacing: 2px;
 }
-
 .about_container h4 {
-    padding: 2rem;
+    padding: 4rem 0;
     font-size: 4rem;
     text-align: center;
     letter-spacing: 2px;
 }
-
 .about_container .about_us_card h5 {
     padding: 2rem;
     font-size: 1.7rem;
@@ -67,7 +57,6 @@
     letter-spacing: 2px;
     color: var(--white_color);
 }
-
 .about_container .about_us_card p {
   font-size: 1.5rem;
   text-align: center;

@@ -10,7 +10,7 @@ function getNextWednesday() {
 }
 
 function getInitialWednesdays() {
-    const fixedStartDate = new Date('2024-07-17'); // Set fixed start date (July 17, 2024)
+    const fixedStartDate = new Date('2024-07-18'); // Set fixed start date (July 17, 2024)
     const nextWednesday = getNextWednesday();
     
     // Determine which date is earlier and set the two initial biweekly Wednesdays accordingly
@@ -48,3 +48,24 @@ const formattedDate2 = formatDateWithSuffix(initialWednesday2);
 
 document.getElementById('Bingo_date').innerHTML = `${formattedDate1}`;
 document.getElementById('Trivia_date').innerHTML = `${formattedDate2}`;
+
+function swapDivs() {
+    const div1 = document.getElementById('Bingo_details');
+    const div2 = document.getElementById('Trivia_details');
+
+    // Swap the innerHTML of the two divs
+    const temp = div1.innerHTML;
+    div1.innerHTML = div2.innerHTML;
+    div2.innerHTML = temp;
+}
+// Function to check if today is Wednesday and swap the divs if true
+function checkAndSwap() {
+    const today = new Date();
+    const dayOfWeek = today.getDay();
+
+    // 3 represents Wednesday (Sunday is 0, Monday is 1, etc.)
+    if (dayOfWeek === 3) {
+        swapDivs();
+    }
+}
+window.onload = checkAndSwap;

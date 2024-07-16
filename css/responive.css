@@ -350,4 +350,14 @@
     #Event-1 .banner {
         height: 10vh;
        }
+    #Picture_book {
+        height: 68vh;
+    }
+    #Picture_book .mySwiper {
+        display: none;
+    }
+    #Picture_book .container {
+        height: 70vh;
+        padding-bottom: 0;
+    }
 }
